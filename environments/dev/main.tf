@@ -19,7 +19,7 @@ locals {
 
 provider "google" {
   project = "${var.project}"
-  version = "3.69.0"
+  version = "v3.69.0"
 }
 
 module "vpc" {

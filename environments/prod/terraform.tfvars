@@ -1,1 +1,1 @@
-project="PROJECT_ID"
+project="terraform-training-315200"

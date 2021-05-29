@@ -24,7 +24,7 @@ steps:
       echo "$BRANCH_NAME"
       echo "***********************"
 
-- id: 'tf init'
+- id: 'tf init --verify-plugins=false'
   name: 'hashicorp/terraform:0.11.14'
   entrypoint: 'sh'
   args: 

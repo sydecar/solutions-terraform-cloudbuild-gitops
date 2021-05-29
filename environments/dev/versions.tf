@@ -13,6 +13,6 @@
 # limitations under the License.
 
 
-terraform {
-  required_version = "~> 0.11.0"
-}
+#terraform {
+#  required_version = "~> 0.11.0"
+#}
